@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `subdomains` (
+    id int PRIMARY KEY AUTO_INCREMENT,
+    subdomain VARCHAR(255) NOT NULL,
+    token VARCHAR(255) NOT NULL
+);
